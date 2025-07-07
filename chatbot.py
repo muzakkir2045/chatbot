@@ -1,4 +1,5 @@
 
+from datetime import datetime
 
 print("ChatBot: Hello! I'm a basic chatbot. Type 'bye' to exit.")
 
@@ -15,7 +16,6 @@ while True:
         print("ChatBot: I'm just code, but I'm functioning perfectly! 😄")
     
     elif "time" in user_input:
-        from datetime import datetime
         print(f"ChatBot: Current time is {datetime.now().strftime('%H:%M:%S')}")
     
     elif "bye" in user_input:
